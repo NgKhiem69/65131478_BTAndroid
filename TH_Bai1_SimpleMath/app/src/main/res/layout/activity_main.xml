@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chương trình Tính Toán Đơn Giản"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/edt_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số A"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edt_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số B"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_cong"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="+"
+            android:textSize="24sp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btn_tru"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="-"
+            android:textSize="24sp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btn_nhan"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="×"
+            android:textSize="24sp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btn_chia"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="÷"
+            android:textSize="24sp"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_tinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính kết quả"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Làm lại"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txt_ketQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
