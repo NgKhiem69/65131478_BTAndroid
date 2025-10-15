@@ -26,10 +26,10 @@
 ## 🖼️ Giao diện ứng dụng
 
 ### 🔹 Trước khi tính toán
-<img src="./Screenshot_20251015_074401.png" alt="Giao diện ban đầu" width="300"/>
+<img src="~/Screenshot_20251015_074401.png" alt="Giao diện ban đầu" width="300"/>
 
 ### 🔹 Sau khi tính toán
-<img src="./Screenshot_20251015_074443.png" alt="Giao diện sau khi tính" width="300"/>
+<img src="~/Screenshot_20251015_074443.png" alt="Giao diện sau khi tính" width="300"/>
 
 ---
 
