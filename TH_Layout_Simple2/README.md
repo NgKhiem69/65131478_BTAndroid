@@ -23,7 +23,7 @@
 
 ### 🔹 Màn hình chính
 <p align="center">
-  <img src="./Screenshot_20251022_004521.png" alt="Giao diện ban đầu" width="45%" style="margin-right:10px;"/>
+  <img src="./Screenshot_20251022_004521.png" alt="Giao diện ban đầu" width="45%" style="margin-right:10;"/>
   <img src="./Screenshot_20251022_004716.png" alt="Giao diện sau" width="45%"/>
 </p>
 
@@ -31,7 +31,7 @@
 
 ### 🔹 Màn hình thứ hai / Fragment
 <p align="center">
-  <img src="./Screenshot_20251022_004605.png" alt="Giao diện Fragment ban đầu" width="45%" style="margin-right:10px;"/>
+  <img src="./Screenshot_20251022_004605.png" alt="Giao diện Fragment ban đầu" width="45%" style="margin-right:10;"/>
   <img src="./Screenshot_20251022_004735.png" alt="Giao diện Fragment sau" width="45%"/>
 </p>
 
