@@ -21,13 +21,12 @@ Một ứng dụng Android được xây dựng bằng **Java** trên **Android 
 
 
 
-## 🖼️ Giao diện ứng dụng
+## 🖼️ Giao diện ban đầu
 
-### Trước khi tính toán:
-![Giao diện trước](https://github.com/Ngkhiem69/65131478_BTAndroid/TH_Bai2_BasicGUI/blob/main/images/Screenshot_20251022_001955.png?raw=true)
+<img src="./Screenshot_20251022_001955.png" alt="Giao diện ban đầu" width="300"/>
 
-### Sau khi tính toán:
-![Giao diện sau](https://github.com/Ngkhiem69/65131478_BTAndroid/TH_Bai2_BasicGUI/blob/main/images/Screenshot_20251022_002042.png?raw=true)
+## 🖼️ Giao diện lúc sau
+<img src="./Screenshot_20251022_002042.png" alt="Giao diện lúc sau" width="300"/>
 
 ---
 
