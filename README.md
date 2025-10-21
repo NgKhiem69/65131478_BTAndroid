@@ -15,6 +15,7 @@
 👤 **Giao Diện Hồ Sơ (Layout Simple 2)** | [Xem chi tiết](./TH_Layout_Simple2/README.md) |
 🔐 **Màn Hình Đăng Ký (Layout Simple Login)** | [Xem chi tiết](./TH_Layout_SimpleLogin/README.md) |
 🖲️ **Ví dụ OnClickListener (Xử lý sự kiện Click)** | [Xem chi tiết](./ViDu_onClickListener/README.md) |
+🌏 **ViewPager_TabLayout_Fragment(Quốc gia)** | [Xem chi tiết](./ViDu_ViewPager_TabLayout_Fragment/README.md) |
 
 ---
 
@@ -51,6 +52,29 @@
 ### 🖲️ ViDu_onClickListener  
 <img src="./ViDu_onClickListener/Screenshot_20251022_053002.png" width="250"/>
 <img src="./ViDu_onClickListener/Screenshot_20251022_053017.png" width="250"/>
+
+---
+
+### 🌏 ViewPager2 + TabLayout (Các Quốc Gia)
+
+<table>
+  <tr>
+    <th>🇻🇳 Việt Nam</th>
+    <th>🇯🇵 Nhật Bản</th>
+    <th>🇺🇸 Hoa Kỳ</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./ViewPager2_Tabs/Screenshot_20251022_063432.png" width="250"/>
+    </td>
+    <td align="center">
+      <img src="./ViewPager2_Tabs/Screenshot_Japan.png" width="250"/>
+    </td>
+    <td align="center">
+      <img src="./ViewPager2_Tabs/Screenshot_USA.png" width="250"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
