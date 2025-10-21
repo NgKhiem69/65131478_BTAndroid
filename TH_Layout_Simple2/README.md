@@ -18,34 +18,20 @@
 - **Thư viện:** AndroidX, Material Design  
 
 ---
-
-## 🖼️ Giao diện ứng dụng — Trước và Sau
-
+## 🖼️ Giao diện ứng dụng ban đầu
 ### 🔹 Màn hình chính
-<p align="center">
-  <img src="./Screenshot_20251022_004521.png" alt="Giao diện ban đầu" width="45%" style="margin-right:10;"/>
-  <img src="./Screenshot_20251022_004716.png" alt="Giao diện sau" width="45%"/>
-</p>
 
----
+<img src="./Screenshot_20251022_004521.png" alt="Giao diện ban đầu" width="300"/>
 
 ### 🔹 Màn hình thứ hai / Fragment
-<p align="center">
-  <img src="./Screenshot_20251022_004605.png" alt="Giao diện Fragment ban đầu" width="45%" style="margin-right:10;"/>
-  <img src="./Screenshot_20251022_004735.png" alt="Giao diện Fragment sau" width="45%"/>
-</p>
 
----
+<img src="./Screenshot_20251022_004605.png" alt="Giao diện ban đầu" width="300"/>
 
-## 🚀 Cách chạy ứng dụng
-1. Mở **Android Studio**
-2. Chọn **File → Open...** → Mở thư mục `TH_Bai3_Chuyenmanhinh_Fragment2`
-3. Kết nối thiết bị hoặc mở AVD
-4. Nhấn ▶️ **Run app** để chạy
+## 🖼️ Giao diện ứng dụng sau khi
+### 🔹 Màn hình chính
 
----
+<img src="./Screenshot_20251022_004716.png" alt="Giao diện lúc sau" width="300"/>
 
-## 👨‍💻 Tác giả
-**Họ tên:** Nguyễn Gia Khiêm  
-**Mã SV:** 65131478
-**Trường:** Đại học Nha Trang
+### 🔹 Màn hình thứ hai / Fragment
+
+<img src="./Screenshot_20251022_004735.png" alt="Giao diện lúc sau" width="300"/>
