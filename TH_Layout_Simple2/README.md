@@ -1,37 +1,29 @@
-# 📱 TH_Bai3_Chuyenmanhinh_Fragment2
+# 🌟 TH_Layout_Simple2
 
-Ứng dụng Android minh họa **chuyển màn hình (Activity)** và **sử dụng Fragment cơ bản**, được phát triển trong khuôn khổ môn *Lập trình Giao diện Cơ bản (Basic GUI Programming)*.
+Ứng dụng Android trình bày **giao diện hồ sơ người dùng (User Profile Layout)** hiện đại, được xây dựng trong khuôn khổ môn *Lập trình Giao Diện Cơ Bản (Basic GUI Programming)*.
 
 ---
 
-## ✨ Tính năng chính
-- Chuyển đổi giữa hai màn hình (Activity 1 → Activity 2) bằng `Intent`.
-- Truyền dữ liệu giữa các màn hình.
-- Sử dụng `Fragment` để hiển thị nội dung động.
-- Thiết kế giao diện hiện đại với Material Components.
+## ✨ Tính năng nổi bật
+- Hiển thị **ảnh bìa** và **ảnh đại diện tròn (Circle ImageView)**.
+- Thông tin cơ bản: tên, nghề nghiệp, vị trí.
+- Thống kê: số lượng **followers**, **following** và **likes**.
+- Các nút chức năng: **Edit profile**, **Add friends**.
+- Thanh điều hướng dưới cùng (Bottom Navigation).
+- Bố cục gọn gàng, dùng **LinearLayout + RelativeLayout + RecyclerView**.
 
 ---
 
 ## 🛠️ Công nghệ sử dụng
 - **Ngôn ngữ:** Java  
 - **IDE:** Android Studio  
-- **Thư viện:** AndroidX, Material Design  
+- **Thư viện:**  
+  - `de.hdodenhof:circleimageview` (để hiển thị ảnh đại diện tròn)  
+  - Material Design Components  
 
 ---
-## 🖼️ Giao diện ứng dụng ban đầu
-### 🔹 Màn hình chính
 
-<img src="./Screenshot_20251022_004521.png" alt="Giao diện ban đầu" width="300"/>
+## 🖼️ Giao diện ứng dụng
 
-### 🔹 Màn hình thứ hai / Fragment
-
-<img src="./Screenshot_20251022_004605.png" alt="Giao diện ban đầu" width="300"/>
-
-## 🖼️ Giao diện ứng dụng sau khi
-### 🔹 Màn hình chính
-
-<img src="./Screenshot_20251022_004716.png" alt="Giao diện lúc sau" width="300"/>
-
-### 🔹 Màn hình thứ hai / Fragment
-
-<img src="./Screenshot_20251022_004735.png" alt="Giao diện lúc sau" width="300"/>
+### 📱 Giao diện chính (Profile)
+<img src="./Screenshot 2025-10-22 010920.png" alt="Giao diện ban đầu" width="300"/>
