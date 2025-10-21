@@ -68,10 +68,10 @@
       <img src="./ViDu_ViewPager_TabLayout_Fragment/Screenshot_20251022_063432.png" width="250"/>
     </td>
     <td align="center">
-      <img src="./ViDu_ViewPager_TabLayout_Fragment/Screenshot_Japan.png" width="250"/>
+      <img src="./ViDu_ViewPager_TabLayout_Fragment/Screenshot_20251022_063458.png" width="250"/>
     </td>
     <td align="center">
-      <img src="./ViDu_ViewPager_TabLayout_Fragment/Screenshot_USA.png" width="250"/>
+      <img src="./ViDu_ViewPager_TabLayout_Fragment/Screenshot_20251022_063517.png" width="250"/>
     </td>
   </tr>
 </table>
