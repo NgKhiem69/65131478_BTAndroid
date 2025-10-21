@@ -65,13 +65,13 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="./ViewPager2_Tabs/Screenshot_20251022_063432.png" width="250"/>
+      <img src="./ViDu_ViewPager_TabLayout_Fragment/Screenshot_20251022_063432.png" width="250"/>
     </td>
     <td align="center">
-      <img src="./ViewPager2_Tabs/Screenshot_Japan.png" width="250"/>
+      <img src="./ViDu_ViewPager_TabLayout_Fragment/Screenshot_Japan.png" width="250"/>
     </td>
     <td align="center">
-      <img src="./ViewPager2_Tabs/Screenshot_USA.png" width="250"/>
+      <img src="./ViDu_ViewPager_TabLayout_Fragment/Screenshot_USA.png" width="250"/>
     </td>
   </tr>
 </table>
