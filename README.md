@@ -14,6 +14,7 @@
 🔄 **Chuyển Màn Hình & Fragment** | [Xem chi tiết](./TH_Bai3_Chuyenmanhinh_Fragment2/README.md) |
 👤 **Giao Diện Hồ Sơ (Layout Simple 2)** | [Xem chi tiết](./TH_Layout_Simple2/README.md) |
 🔐 **Màn Hình Đăng Ký (Layout Simple Login)** | [Xem chi tiết](./TH_Layout_SimpleLogin/README.md) |
+🖲️ **Ví dụ OnClickListener (Xử lý sự kiện Click)** | [Xem chi tiết](./ViDu_onClickListener/README.md) |
 
 ---
 
@@ -47,11 +48,15 @@
 
 ---
 
+### 🖲️ ViDu_onClickListener  
+<img src="./ViDu_onClickListener/Screenshot_20251022_053002.png" width="250"/>
+<img src="./ViDu_onClickListener/Screenshot_20251022_053017.png" width="250"/>
+
+---
+
 ## 👨‍💻 Tác giả
 
 **Họ tên:** Nguyễn Gia Khiêm  
 **Lớp:** 65.CNTT_CLC  
 **Trường:** Đại học Nha Trang  
 **Email:** gk699488@gmail.com  
-
-
