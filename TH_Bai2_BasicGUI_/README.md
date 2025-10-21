@@ -30,23 +30,6 @@ Một ứng dụng Android được xây dựng bằng **Java** trên **Android 
 
 ---
 
-## 🧩 Cấu trúc dự án
-
-app/
-├── java/
-│ └── com.example.bmi_basicgui/
-│ └── MainActivity.java
-└── res/
-├── layout/
-│ └── activity_main.xml
-├── mipmap/
-└── values/
-├── colors.xml
-├── strings.xml
-└── styles.xml
-
----
-
 ## ⚙️ Cách sử dụng
 
 1. **Nhập chiều cao** (tính bằng cm)  
