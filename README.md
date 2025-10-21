@@ -1,4 +1,4 @@
-# 📚 BÀI TẬP ANDROID CƠ BẢN – Nguyễn Gia Khiêm
+# 📚 BÀI TẬP ANDROID – Nguyễn Gia Khiêm
 
 > Tổng hợp các bài thực hành trong môn **Lập trình Giao diện Cơ Bản (Basic GUI Programming)**.  
 > Mỗi bài được xây dựng bằng **Java + Android Studio**, kèm theo README mô tả chi tiết.
