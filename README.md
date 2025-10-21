@@ -9,11 +9,11 @@
 
 | # | Bài thực hành | Liên kết |
 |:-:|----------------|----------|
-| 1️⃣ | 🧮 Ứng dụng **Tính Toán Đơn Giản** | [Xem chi tiết](./TH_Bai1_SimpleMath/README.md) |
-| 2️⃣ | ⚖️ Ứng dụng **Tính Chỉ Số BMI (Basic GUI)** | [Xem chi tiết](./TH_Bai2_BasicGUI/README.md) |
-| 3️⃣ | 🔄 **Chuyển Màn Hình & Fragment** | [Xem chi tiết](./TH_Bai3_Chuyenmanhinh_Fragment2/README.md) |
-| 4️⃣ | 👤 **Giao Diện Hồ Sơ (Layout Simple 2)** | [Xem chi tiết](./TH_Layout_Simple2/README.md) |
-| 5️⃣ | 🔐 **Màn Hình Đăng Ký (Layout Simple Login)** | [Xem chi tiết](./TH_Layout_SimpleLogin/README.md) |
+🧮 Ứng dụng **Tính Toán Đơn Giản** | [Xem chi tiết](./TH_Bai1_SimpleMath/README.md) |
+⚖️ Ứng dụng **Tính Chỉ Số BMI (Basic GUI)** | [Xem chi tiết](./TH_Bai2_BasicGUI/README.md) |
+🔄 **Chuyển Màn Hình & Fragment** | [Xem chi tiết](./TH_Bai3_Chuyenmanhinh_Fragment2/README.md) |
+👤 **Giao Diện Hồ Sơ (Layout Simple 2)** | [Xem chi tiết](./TH_Layout_Simple2/README.md) |
+🔐 **Màn Hình Đăng Ký (Layout Simple Login)** | [Xem chi tiết](./TH_Layout_SimpleLogin/README.md) |
 
 ---
 
@@ -26,8 +26,8 @@
 ---
 
 ### ⚖️ TH_Bai2_BasicGUI  
-<img src="./TH_Bai2_BasicGUI/Screenshot_20251022_001955.png" width="250"/>
-<img src="./TH_Bai2_BasicGUI/Screenshot_20251022_002042.png" width="250"/>
+<img src="./TH_Bai2_BasicGUI_/Screenshot_20251022_001955.png" width="250"/>
+<img src="./TH_Bai2_BasicGUI_/Screenshot_20251022_002042.png" width="250"/>
 
 ---
 
