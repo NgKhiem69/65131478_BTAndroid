@@ -32,3 +32,77 @@ Một ứng dụng Android được xây dựng bằng **Java** trên **Android 
 
 ## 🧩 Cấu trúc dự án
 
+app/
+├── java/
+│ └── com.example.bmi_basicgui/
+│ └── MainActivity.java
+└── res/
+├── layout/
+│ └── activity_main.xml
+├── mipmap/
+└── values/
+├── colors.xml
+├── strings.xml
+└── styles.xml
+
+---
+
+## ⚙️ Cách sử dụng
+
+1. **Nhập chiều cao** (tính bằng cm)  
+2. **Nhập cân nặng** (tính bằng kg)  
+3. Chọn **tiêu chuẩn đánh giá** (Toàn cầu / Châu Á)  
+4. Nhấn **Tính BMI** để xem kết quả  
+5. Ứng dụng sẽ hiển thị:
+   - **Chỉ số BMI** (số thập phân 2 chữ số)
+   - **Phân loại sức khỏe** (Thiếu cân, Bình thường, Thừa cân, Béo phì)
+
+---
+
+## 🧠 Kiến thức áp dụng
+
+| Thành phần | Mục đích |
+|-------------|----------|
+| `EditText` | Nhập chiều cao và cân nặng |
+| `RadioGroup`, `RadioButton` | Chọn tiêu chuẩn đánh giá |
+| `Button` | Bắt sự kiện tính toán |
+| `TextView` | Hiển thị kết quả |
+| `OnClickListener` | Xử lý sự kiện bấm nút |
+| `if-else` | Logic phân loại sức khỏe |
+| `Toast` | Thông báo lỗi khi thiếu dữ liệu |
+
+---
+
+## 💡 Bảng phân loại BMI (theo WHO)
+
+| Phân loại | BMI (kg/m²) – Toàn cầu | BMI (kg/m²) – Châu Á |
+|------------|------------------------|----------------------|
+| Thiếu cân | < 18.5 | < 18.5 |
+| Bình thường | 18.5 – 24.9 | 18.5 – 22.9 |
+| Thừa cân | 25.0 – 29.9 | 23.0 – 24.9 |
+| Béo phì | ≥ 30.0 | ≥ 25.0 |
+
+---
+
+## ✨ Mục tiêu bài học
+
+- Thiết kế giao diện người dùng bằng **XML**  
+- Xử lý sự kiện với **OnClickListener**  
+- Áp dụng **điều kiện (if-else)** trong Java  
+- Hiển thị thông tin kết quả trên **TextView**  
+- Làm quen với chuẩn thiết kế **Material Design đơn giản**
+
+---
+
+## 👨‍💻 Tác giả
+
+**Tên sinh viên:** [Nguyễn Gia Khiêm]  
+**Lớp:** [65.CNTT_CLC]  
+**Trường:** [Đại học Nha Trang]  
+**Email:** [gk699488@gmail.com]
+
+---
+
+
+
+> 🧡 *Nếu bạn thấy dự án này hữu ích, hãy ⭐ (Star) repo trên GitHub để ủng hộ nhé!*
