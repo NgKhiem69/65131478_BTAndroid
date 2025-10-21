@@ -19,13 +19,15 @@ Một ứng dụng Android được xây dựng bằng **Java** trên **Android 
 
 ---
 
+
+
 ## 🖼️ Giao diện ứng dụng
 
-| Màn hình chính |
-|----------------|
-| ![BMI Calculator Screenshot](https://github.com/<your-username>/<your-repo-name>/blob/main/screenshot.png?raw=true) |
+### Trước khi tính toán:
+![Giao diện trước](https://github.com/Ngkhiem69/65131478_BTAndroid/TH_Bai2_BasicGUI/blob/main/images/Screenshot_20251022_001955.png?raw=true)
 
-*(Thay link ảnh trên bằng ảnh bạn đã chụp, ví dụ `6544173c-6568-4706-a894-1123a53031d0.png` khi upload lên GitHub.)*
+### Sau khi tính toán:
+![Giao diện sau](https://github.com/Ngkhiem69/65131478_BTAndroid/TH_Bai2_BasicGUI/blob/main/images/Screenshot_20251022_002042.png?raw=true)
 
 ---
 
