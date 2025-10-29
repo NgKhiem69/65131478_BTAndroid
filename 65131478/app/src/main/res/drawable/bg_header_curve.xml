@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Màu nền gradient xanh dương nhạt -->
+    <gradient
+        android:startColor="#B3E5FC"
+        android:endColor="#81D4FA"
+        android:angle="270" />
+
+    <!-- Bo tròn 2 góc dưới -->
+    <corners
+        android:topLeftRadius="80dp"
+        android:topRightRadius="80dp"
+        android:bottomLeftRadius="80dp"
+        android:bottomRightRadius="80dp" />
+
+</shape>
+

@@ -1,11 +1,9 @@
-package Nguyengiakhiem.th_bai2_basicgui_;
-
+package gk1.nguyengiakhiem.thigiuaki1;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.*;
-
-public class MainActivity extends AppCompatActivity {
+public class ActivityChucNang2 {
 
     EditText edtHeight, edtWeight;
     RadioGroup rgStandard;
@@ -75,4 +73,5 @@ public class MainActivity extends AppCompatActivity {
         else if (bmi < 27.5) return "Thừa cân";
         else return "Béo phì";
     }
+}
 }

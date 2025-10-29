@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".ChucNang2Activity">
+
+    <!-- ======= PHẦN TIÊU ĐỀ + LOGO ======= -->
+
+    <!-- ======= PHẦN NHẬP ĐIỂM ======= -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:background="@drawable/bg_header_curve">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="31dp"
+            android:contentDescription="Logo trường"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logontu" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="19dp"
+            android:text="Tính điểm trung bình môn học"
+            android:textColor="#004AAD"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Điểm Giữa kỳ (50%)"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etMid"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Nhập điểm giữa kỳ"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điểm Thi cuối kỳ (50%)"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etFinal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Nhập điểm cuối kỳ"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <!-- Nút tính điểm -->
+        <Button
+            android:id="@+id/btnTinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#CFE2FF"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Tính điểm TB"
+            android:textColor="#000" />
+
+        <!-- Kết quả -->
+        <TextView
+            android:id="@+id/tvKetqua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiện kết quả ở đây"
+            android:textColor="#004AAD"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F9FA"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- ====== PHẦN LOGO ====== -->
+
+    <!-- ====== PHẦN THÂN GIAO DIỆN ====== -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_header_curve">
+
+        <!-- Logo trường -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logontu"
+            android:contentDescription="Logo trường"
+            android:scaleType="fitCenter" />
+
+        <!-- Tên trường ở dưới logo -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ĐẠI HỌC Nha Trang"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#004AAD"
+            android:layout_below="@id/imgLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal">
+
+        <!-- Ảnh minh họa bên trái -->
+
+        <!-- Các nút chức năng bên phải -->
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="179dp"
+            android:layout_height="434dp"
+            android:layout_marginRight="16dp"
+            android:background="#E0E0E0"
+            android:contentDescription="Ảnh minh họa"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/anhminhhoa"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="212dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCN2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#CFE2FF"
+                android:text="Chức năng 2"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnCN3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#CFE2FF"
+                android:text="Chức năng 3"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnCN4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#CFE2FF"
+                android:text="Chức năng 4"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#B0D6FF"
+                android:text="About Me"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

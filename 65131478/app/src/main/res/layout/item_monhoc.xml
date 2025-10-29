@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvMonHoc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Tên môn học"
+    android:padding="12dp"
+    android:textSize="16sp"
+    android:gravity="center"
+    android:background="@drawable/item_border"
+    android:textColor="#000000" />
