@@ -3,7 +3,7 @@
 
     <!-- activity_main.xml -->
 
-    <string name="main_title">Chương trình ôn tập giữa kỳ</string>
+    <string name="main_title">Chương trình thi giữa kỳ</string>
     <string name="main_subtitle">Chọn chức năng bạn muốn thực hiện:</string>
     <string name="btn_cn2">BMI</string>
     <string name="btn_cn3">Món ăn</string>

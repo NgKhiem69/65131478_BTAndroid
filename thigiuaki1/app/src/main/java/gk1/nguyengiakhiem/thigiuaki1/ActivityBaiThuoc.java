@@ -85,10 +85,10 @@ public class ActivityBaiThuoc extends AppCompatActivity {
         }
 
         try {
-            // 2. Phân tích chuỗi JSON thành Mảng
+
             JSONArray jsonArray = new JSONArray(jsonString);
 
-            // 3. Duyệt mảng và tạo đối tượng
+
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject obj = jsonArray.getJSONObject(i);
 
@@ -96,10 +96,10 @@ public class ActivityBaiThuoc extends AppCompatActivity {
                 String title = obj.getString("title");
                 String description = obj.getString("description");
 
-                // 4. Chuyển đổi tên ảnh (String) thành ID (int)
+
                 int imageResId = getDrawableIdByName(imageName);
 
-                // 5. Thêm vào danh sách
+
                 models.add(new Activity4Model(imageResId, title, description));
             }
         } catch (JSONException e) {

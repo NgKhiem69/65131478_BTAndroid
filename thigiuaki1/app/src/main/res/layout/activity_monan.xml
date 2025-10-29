@@ -33,7 +33,7 @@
             android:layout_marginStart="12dp"
             android:fontFamily="@font/poppins_semibold"
             android:letterSpacing="0.03"
-            android:text="Danh sách Môn học"
+            android:text="Danh sách món ăn"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="24sp"

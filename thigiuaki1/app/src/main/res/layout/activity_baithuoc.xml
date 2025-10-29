@@ -32,7 +32,7 @@
             android:layout_marginStart="12dp"
             android:fontFamily="@font/poppins_semibold"
             android:letterSpacing="0.03"
-            android:text="Danh sách Hoạt động"
+            android:text="Danh sách Bài thuốc"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="24sp"
