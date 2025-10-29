@@ -1,0 +1,37 @@
+[
+  {
+    "tenMon": "Phở bò Hà Nội",
+    "moTa": "Phở bò là món ăn truyền thống nổi tiếng của Việt Nam, với nước dùng trong, thơm từ xương bò hầm, bánh phở mềm và thịt bò tái chín hấp dẫn.",
+    "tinChi": "45.000 VNĐ",
+    "giangVien": "Đầu bếp Nguyễn Văn A",
+    "hinhAnh": "pho_bo"
+  },
+  {
+    "tenMon": "Bún chả Hà Nội",
+    "moTa": "Bún chả gồm thịt heo nướng than hoa, ăn cùng bún tươi, rau sống và nước chấm chua ngọt đặc trưng.",
+    "tinChi": "40.000 VNĐ",
+    "giangVien": "Đầu bếp Trần Thị B",
+    "hinhAnh": "bun_cha"
+  },
+  {
+    "tenMon": "Cơm tấm Sài Gòn",
+    "moTa": "Món ăn đặc trưng miền Nam, gồm cơm tấm dẻo thơm, sườn nướng, bì, chả trứng và nước mắm tỏi ớt đậm đà.",
+    "tinChi": "50.000 VNĐ",
+    "giangVien": "Đầu bếp Lê Văn C",
+    "hinhAnh": "com_tam"
+  },
+  {
+    "tenMon": "Bánh mì Việt Nam",
+    "moTa": "Ổ bánh mì giòn rụm, nhân thịt, pate, chả lụa, rau thơm và nước sốt đặc biệt, tạo nên hương vị hấp dẫn nổi tiếng toàn cầu.",
+    "tinChi": "25.000 VNĐ",
+    "giangVien": "Tiệm Bánh Mì Ông Ba",
+    "hinhAnh": "banh_mi"
+  },
+  {
+    "tenMon": "Gỏi cuốn tôm thịt",
+    "moTa": "Gỏi cuốn là món ăn thanh mát, gồm tôm, thịt heo, bún, rau sống và chấm cùng nước chấm đậu phộng béo ngậy.",
+    "tinChi": "30.000 VNĐ",
+    "giangVien": "Đầu bếp Phạm Thị D",
+    "hinhAnh": "goi_cuon"
+  }
+]

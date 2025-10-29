@@ -1,24 +1,43 @@
 package gk1.nguyengiakhiem.thigiuaki1;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    // Khai báo các nút chức năng
+    private Button btnCN2, btnCN3, btnCN4, btnAbout, btnThem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+
+        // Ánh xạ các nút từ layout
+        btnCN2 = findViewById(R.id.btnCN2);
+        btnCN3 = findViewById(R.id.btnCN3);
+        btnCN4 = findViewById(R.id.btnCN4);
+        btnAbout = findViewById(R.id.btnAbout);
+
+
+        // Gọi sự kiện click cho từng nút
+        btnCN2.setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, ActivityBMI.class))
+        );
+
+        btnCN3.setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, ActivityMonAn.class))
+        );
+
+        btnCN4.setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, ActivityBaiThuoc.class))
+        );
+
+        btnAbout.setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, ActivityGioiThieu.class))
+        );
     }
 }

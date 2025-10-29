@@ -1,19 +1,22 @@
 package gk1.nguyengiakhiem.thigiuaki1;
+
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.*;
-public class ActivityChucNang2 {
+
+public class ActivityBMI extends AppCompatActivity {
 
     EditText edtHeight, edtWeight;
     RadioGroup rgStandard;
     RadioButton rbGlobal, rbAsian;
     Button btnCalculate;
     TextView tvResult;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_bmi); // ✅ đổi tên đúng layout XML
 
         // Ánh xạ view từ XML
         edtHeight = findViewById(R.id.edtHeight);
@@ -42,20 +45,24 @@ public class ActivityChucNang2 {
             return;
         }
 
-        double chieuCao = Double.parseDouble(chieuCaoStr) / 100.0; // cm -> m
-        double canNang = Double.parseDouble(canNangStr);
-        double bmi = canNang / (chieuCao * chieuCao);
+        try {
+            double chieuCao = Double.parseDouble(chieuCaoStr) / 100.0; // cm -> m
+            double canNang = Double.parseDouble(canNangStr);
+            double bmi = canNang / (chieuCao * chieuCao);
 
-        String phanLoai;
+            String phanLoai;
+            if (rbGlobal.isChecked()) {
+                phanLoai = phanLoaiToanCau(bmi);
+            } else {
+                phanLoai = phanLoaiChauA(bmi);
+            }
 
-        if (rbGlobal.isChecked()) {
-            phanLoai = phanLoaiToanCau(bmi);
-        } else {
-            phanLoai = phanLoaiChauA(bmi);
+            // Hiển thị kết quả
+            tvResult.setText(String.format("Chỉ số BMI: %.2f\nPhân loại: %s", bmi, phanLoai));
+
+        } catch (NumberFormatException e) {
+            Toast.makeText(this, "Dữ liệu nhập không hợp lệ!", Toast.LENGTH_SHORT).show();
         }
-
-        // Hiển thị kết quả
-        tvResult.setText(String.format("Chỉ số BMI: %.2f\nPhân loại: %s", bmi, phanLoai));
     }
 
     // Phân loại theo tiêu chuẩn Toàn cầu (WHO)
@@ -73,5 +80,4 @@ public class ActivityChucNang2 {
         else if (bmi < 27.5) return "Thừa cân";
         else return "Béo phì";
     }
-}
 }
