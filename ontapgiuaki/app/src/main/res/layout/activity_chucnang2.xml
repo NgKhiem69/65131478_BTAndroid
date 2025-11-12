@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient_modern"
+    tools:context=".ActivityChucNang2">
+
+    <!-- Header hiện đại với gradient nhẹ và logo -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:elevation="6dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_logo_cn2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/bac_si"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <TextView
+            android:id="@+id/tv_title_cn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Tính chỉ số cơ thể"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:letterSpacing="0.03"
+            app:layout_constraintBottom_toBottomOf="@id/iv_logo_cn2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/iv_logo_cn2"
+            app:layout_constraintTop_toTopOf="@id/iv_logo_cn2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Nội dung chính -->
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:background="#F3F4F6">
+
+        <!-- Tiêu đề -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tính Chỉ Số BMI"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1E3A8A"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Nhập chiều cao -->
+        <EditText
+            android:id="@+id/edtHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chiều cao (cm)"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:backgroundTint="#2563EB"
+            android:layout_marginBottom="12dp"
+            android:drawableStart="@android:drawable/ic_menu_sort_by_size" />
+
+        <!-- Nhập cân nặng -->
+        <EditText
+            android:id="@+id/edtWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cân nặng (kg)"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:backgroundTint="#2563EB"
+            android:drawableStart="@android:drawable/ic_menu_edit" />
+
+        <!-- Chọn tiêu chuẩn -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn tiêu chuẩn đánh giá:"
+            android:textSize="16sp"
+            android:textColor="#374151"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgStandard"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/rbGlobal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chuẩn Toàn cầu"
+                android:checked="true"
+                android:textColor="#111827" />
+
+            <RadioButton
+                android:id="@+id/rbAsian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chuẩn Châu Á"
+                android:textColor="#111827"
+                android:layout_marginStart="24dp" />
+        </RadioGroup>
+
+        <!-- Nút tính toán -->
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tính BMI"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#2563EB"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <!-- Kết quả -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kết quả sẽ hiển thị tại đây"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1F2937"
+            android:gravity="center"
+            android:layout_marginTop="32dp" />
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
